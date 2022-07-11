@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <title>Dev. Contabil</title>
+</head>
+
+<body>
+    <div class="caixa_superior">
+        <div class="cabecalho">
+            <h2 class="titulo_cabecalho">Dev. Contábil</h2>
+            <a href="#titulo_meio" class ="link_cabecalho">Serviços</a>
+            <a href="#titulo_inferior" class ="link_cabecalho">Quem somos</a>
+            <a class ="link_cabecalho" onclick="aparecer_opcao()">Contato</a>
+            <a href="#titulo_linkedin" class="link_cabecalho">Por trás do site</a>
+        </div>
+
+        <h1>Dev. Contábil</h1>
+
+        <form id="formulario_contato" action="https://formsubmit.co/guiaguilar699@gmail.com" method="POST">
+
+            <h3 class="titulo_formulario">Entre em contato</h3>
+
+            <label>
+                Nome
+                <input  type="text" name="nome" placeholder="Digite seu nome"  required />
+            </label>
+
+            <label>
+                E-mail
+                <input type="email" name="e-mail" placeholder="Digite seu e-mail" required />
+            </label>
+
+            <label>
+                WhatsApp
+                <input type="tel" name="telefone" placeholder="Digite seu número" required />
+            </label>
+
+            <label>
+                Fale conosco
+                <textarea name="info" placeholder="Qual a sua dúvida?"></textarea>
+            </label>
+
+            <button type="submit" >Enviar</button>
+
+        </form>
+
+    </div>
+
+    <h2 id="titulo_meio">Nossos Serviços</h2>
+
+    <div class="caixa_central">
+        <div class="card">
+            <h3 class="titulo_card">Contabilidade Completa</h3>
+            <ul>
+                <li>Primeiro item desta lista</li>
+                <li>Segundo item desta lista</li>
+                <li>Terceiro item desta lista</li>
+                <li>Quarto item desta lista</li>
+                <li>Quinto item desta lista</li>
+            </ul>
+        </div>
+
+
+        <div class="card">
+            <h3 class="titulo_card">Cuidamos do seu negócio</h3>
+            <ul>
+                <li>Primeiro item desta lista</li>
+                <li>Segundo item desta lista</li>
+                <li>Terceiro item desta lista</li>
+                <li>Quarto item desta lista</li>
+                <li>Quinto item desta lista</li>
+            </ul>
+        </div>
+
+        <div class="card">
+
+            <h3 class="titulo_card">Cuidamos de você</h3>
+            <ul>
+                <li>Primeiro item desta lista</li>
+                <li>Segundo item desta lista</li>
+                <li>Terceiro item desta lista</li>
+                <li>Quarto item desta lista</li>
+                <li>Quinto item desta lista</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="caixa_inferior">
+        <h2 id="titulo_inferior">Sobre Nós</h2>
+        <p class="paragrafo_inferior">
+            Nossa empresa foi fundada pois com o conhecimento que tínhamos por pesquisas necessárias para problemas pessoais,
+            começamos a resolver problemas de parentes e amigos, após grandes elogios e feedbacks positivos decidimos abrir
+            para todos a possibilidade de contratar nossos serviços para resoluções com máxima dedicação e esforço.
+        </p>
+
+    </div>
+
+
+    <h2 id="titulo_linkedin">Por trás do site</h2>
+    
+    <div class="box_behind">
+        <div class="caixa_linkedin">
+            <a href="https://br.linkedin.com/in/rodolfomori?trk=people-guest_people_search-card"><img src="/images/rodolfo_in.jfif"  height="300" width="300" alt=""></a>
+            <a href="https://www.linkedin.com/in/guilherme-aguilar-12809b1b1/"><img src="/images/eu_in.jfif" height="300" width="300"></a>
+        </div>
+
+         <!--"https://www.linkedin.com/in/rodolfomori/"/*-->
+
+        <div class="caixa_descricao">
+            <div class="desc_linkedin">
+                <div class="card_linkedin"></div>
+                 <h3 class="titulo_bio">Quem ensinou:</h3>
+                 <ul>
+                     <li class="nome">Rodolfo Mori</li>
+                 </ul>
+            </div>
+        </div>
+
+
+        <div class="caixa_descricao">
+             <div class="desc_linkedin">
+                 <div class="card_linkedin"></div>
+                <h3 class="titulo_bio">Quem praticou:</h3>
+                <ul>
+                    <li class="nome">Guilherme Aguilar</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+
+let formulario = document.getElementById("formulario_contato")
+
+
+function aparecer_opcao(){
+    formulario.className = "mostrar_formulario"
+}
+
+</script>
+
+</html>
