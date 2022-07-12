@@ -6,7 +6,7 @@
 }
 
 .caixa_superior {
-    background-image: url("/images/capa_site.png");
+    background-image: url("./images/capa_site.png");
     background-size: cover;
     height: 90vh;
 }
