@@ -121,7 +121,6 @@ textarea {
     color: black;
     margin-top: 50px;
     margin-bottom: 50px;
-    /*margin-left: 430px;*/
     text-align: center;
 }
 
@@ -183,7 +182,6 @@ img {
     margin-top: 50px;
     border-radius: 50%;
     display: inline-block;
-    /* margin-left: 310px; */
     cursor: pointer;
 }
 
@@ -207,7 +205,6 @@ img {
 
 .caixa_descricao {
     display: inline-block;
-    /* margin-left: 310px; */
     margin-bottom: 50px;
 }
 
@@ -219,46 +216,6 @@ img {
 
 .box_behind {
     text-align: center;
-    /* align-items: center; */
 }
 
 html {  scroll-behavior: smooth;}
-
-
-
-
-
-/*
-    width -> Largura
-    height -> Altura
-    top -> Cima
-    bottom -> Baixo
-    left -> Esquerda
-    right -> Direita
-
-    background-image: -> Troca a imagem de fundo
-    font-siZe: -> Troca o tamanho do texto
-    color: -> Troca a cor do texto (vc consegue navegar e escolher uma cor pelo nome, mas o mais aconselhado é pelo código)
-    display: inline -> Coloca na mesma linha
-    font-family: -> Troca a fonte do texto
-    margin: -> Distanciamento em relaçao ao lado de fora
-    padding: -> Distanciamento em relação ao lado de dentro
-    cursor: pointer -> Deixa o cursor do mouse como uma "mãozinha" em cima dos locais configurados
-    position: -> posiciona o elemento na tela de acordo com a sua escolha (relative: Relativo a algum ponto de referência)
-    background-color -> Insere uma cor de fundo
-    border-radius -> arredonda as bordas
-    border -> Muda a cor o tamanho e o tipo de borda do elemento 
-    float -> junta os elementos em um lado específico da tela
-    text-align -> alinha o texto de acordo com a posição que você selecionar
-    justify-content -> modifica e alinha figuras entre uma box
-    <img src= "./capa_site.png" /> ->          Esse código é para colocar uma imagem
-
-
-    Unidades de medida: 
-    px -> pixel
-    vh -> view.heigth (A Altura da tela dividido por 100)
-    vw -> view.width (A largura da tela dividido por 100)
-
-    cm -> centímetro
-    m -> metro
-*/
